@@ -1,16 +1,29 @@
-# news_app
 
-A new Flutter project.
+![Flutter News App](https://github.com/CoderJava/Flutter-News-App/blob/master/screenshots/social%20media%20preview.png)
 
-## Getting Started
+# Flutter News App
+News App developed with Flutter and API from [News API](https://newsapi.org)
 
-This project is a starting point for a Flutter application.
+## Versions
+- [v1.0.0](https://github.com/MdAbdullahAlMahmud/MaterialNews/releases/tag/Alpha_)
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
+1. Please open file **Resource.dart** and change `YOUR API KEY` in the variable `API_KEY` with your own.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Feature
+- [X] List daily news.
+- [X] Filter daily news by category.
+- [X] Go to detail news website.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technology
+1. Dio<br />
+   A powerful Http client for Dart, which supports interceptors, FormData, Request Cancellation, File Downloading, Timeout, etc.
+2. Cached Network Image<br />
+   Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+3. Provider<br />
+   A wrapper around InheritedWidget to make them easier to use and more reusable.
+4. WebView  <br />
+   A Flutter plugin that provides a WebView widget.
+
+
+
